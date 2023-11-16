@@ -1,0 +1,480 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+}
+
+.topbar .social-link i {
+    /* border: 1px solid white; */
+    padding: 0.7rem 1rem;
+    color: white;
+}
+
+.topbar .social-link i:hover {
+    background-color: #CCCCCC;
+    color: black;
+}
+
+.topbar .search i {
+    color: white;
+    padding: 0.7rem 1rem;
+}
+
+.topbar .search i:hover {
+    background-color: #CCCCCC;
+    color: black;
+}
+
+.banner {
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.banner h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+.banner h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner h3 span {
+    background-color: black;
+    color: white;
+    padding: 0.2rem;
+}
+
+.main {
+    background-image: url(images/jane.jpg);
+    height: 150vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2rem;
+}
+
+.main .main-bx {
+    /* border: 1px solid white; */
+    color: white;
+    width: 30%;
+}
+
+.main .main-bx h3 {
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+.main .main-bx h2 {
+    font-size: 3rem;
+    padding-bottom: 0.5rem;
+}
+
+.main .main-bx button {
+    font-size: 1rem;
+    padding: 1rem;
+    text-transform: uppercase;
+    background-color: #CCCCCC;
+    border: none;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.main .main-bx button:hover {
+    background-color: white;
+}
+
+.blog {
+    width: 100%;
+    background-color: #F1F1F1;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+}
+
+.blog .blog-bx {
+    width: 60%;
+}
+
+
+.blog-bx .blog1 {
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: 3rem;
+    background-color: white;
+}
+
+.blog-bx .blog1 h2 {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 1rem;
+}
+
+.blog-bx .blog1 h4 {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 1rem;
+}
+
+.blog-bx .blog1 h4 span {
+    color: #666666;
+}
+
+.blog-bx .blog1 img {
+    width: 95%;
+    padding-bottom: 1.5rem;
+}
+
+.blog-bx .blog1 p {
+    width: 95%;
+    text-align: justify;
+    padding-bottom: 1.5rem;
+    padding-left: 1.3rem;
+}
+
+.blog-bx .blog1 .like {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem 2rem 1rem;
+}
+
+.blog-bx .blog1 .like a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 1rem 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.blog-bx .blog1 .like a span {
+    border: 1px solid black;
+    padding: 0.3rem 0.5rem;
+    background-color: black;
+    color: white;
+}
+
+.blog-bx .blog1 .like a:hover {
+    background-color: #CCCCCC;
+    color: white;
+}
+
+.blog-bx .blog1 hr {
+    border: none;
+    border-bottom: 2px solid #CCCCCC;
+    margin: 2rem 0;
+}
+
+.blog-bx .blog1 .pp {
+    display: flex;
+    align-items: center;
+}
+
+.blog-bx .blog1 .pp .image img {
+    width: 50%;
+}
+
+.blog-bx .blog1 .pp .head {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blog-bx .blog1 .pp .head h3 {
+    padding-bottom: 1rem;
+}
+
+.blog-bx .blog1 .pp .head h3 span {
+    color: #666666;
+    font-size: 1rem;
+}
+
+.blog .blog-bx-1 {
+    background-color: black;
+    color: white;
+}
+
+.blog .blog-1-bx {
+    width: 30%;
+    height: 50vh;
+}
+
+.blog .blog-bx-1 img {
+    width: 100%;
+}
+
+.blog .blog-bx-1 h3 {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem 1rem;
+}
+
+.blog .blog-bx-1 p {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem 0 1rem 1rem;
+}
+
+.post {
+    /* border: 1px solid black; */
+    margin-top: 2rem;
+}
+
+.post h2 {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+.post .pp {
+    background-color: white;
+    /* color: white; */
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.post .pp:hover {
+    background-color: #CCCCCC;
+}
+
+.post .pp .pimg {
+    width: 30%;
+}
+
+.post .pp .pimg img {
+    width: 50%;
+    /* height: 100px; */
+}
+
+.post .pp .content {
+    width: 60%;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.advertise {
+    background-color: white;
+    /* border: 1px solid black; */
+    /* height: 50vh; */
+    margin-top: 2rem;
+}
+
+.advertise h2 {
+    background-color: black;
+    color: white;
+    padding: 1rem 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.advertise .ad {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.advertise .ad .add {
+    background-color: #CCCCCC;
+    width: 95%;
+    height: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.advertise .tags {
+    padding: 1rem;
+}
+
+.advertise .tags p {
+    display: inline-block;
+    /* border: 1px solid black; */
+    padding: 0.1rem 0.3rem;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: #F1F1F1;
+}
+
+.advertise .tags span {
+    /* border: 1px solid black; */
+    background-color: black;
+    padding: 0.1rem 0.3rem;
+    margin-right: 1rem;
+    color: white;
+}
+
+.advertise .ad .sec {
+    white-space: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.advertise .ad .sec img {
+    width: 170px;
+    height: 120px;
+    margin: 0.5rem;
+}
+
+.advertise .links {
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.advertise .links i {
+    color: black;
+    margin-right: 0.5rem;
+}
+
+.advertise .links i:hover {
+    color: #666666;
+}
+
+.advertise .sub {
+    padding: 1rem;
+}
+
+.advertise .sub input {
+    display: block;
+    width: 90%;
+    padding: 0.7rem;
+    margin: 1rem 0;
+    border: none;
+    border: 1px solid #CCCCCC;
+}
+
+.advertise .sub button {
+    width: 100%;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: orangered;
+    border: none;
+    padding: 0.2rem;
+    color: white;
+}
+
+footer {
+    background-color: #666666;
+    height: 20vh;
+    padding: 2rem 0 3rem 0;
+}
+
+footer .back {
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-weight: 900;
+    background-color: black;
+}
+
+footer .back:hover {
+    background-color: #CCCCCC;
+    color: black;
+}
+
+footer p {
+    padding-top: 3rem;
+    color: white;
+}
+
+footer p a {
+    color: white;
+}
+
+@media (max-width:320px) {
+    .topbar {
+        display: none;
+    }
+
+    .banner h1 {
+        font-size: 2rem;
+    }
+
+    .banner h3 {
+        font-size: 0.8rem;
+    }
+
+    .main {
+        height: 40vh;
+    }
+
+    .main .main-bx h3 {
+        font-size: 2rem;
+    }
+
+    .main .main-bx h2 {
+        display: none;
+    }
+
+    .blog {
+        /* width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center; */
+    }
+
+    .blog .blog-bx {
+        width: 80%;
+    }
+
+    .blog .blog-1-bx {
+        width: 90%;
+    }
+
+    .blog-bx .blog1 h2 {
+        font-size: 1.5rem;
+    }
+
+    .blog-bx .blog1 img {
+        width: 90%;
+    }
+
+    .blog .blog1 p {
+        width: 90%;
+        padding-left: 1rem;
+    }
+
+    .blog-bx .blog1 .like {
+        align-items: center;
+        font-size: 0.6rem;
+        font-weight: 900;
+        padding: 0 0.5rem 2rem 0.5rem;
+    }
+
+    .blog-bx .blog1 .pp {
+        flex-direction: column;
+        text-align: justify;
+        width: 90%;
+    }
+
+    .blog-bx .blog1 .pp .head {
+        font-size: 1rem;
+        padding-left: 1rem;
+    }
+
+    .blog-bx .blog1 .pp .head h3 span {
+        font-size: 0.8rem;
+    }
+
+    .advertise .ad .sec img {
+        width: 110px;
+        height: 110px;
+    }
+
+}
